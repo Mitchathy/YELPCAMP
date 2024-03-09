@@ -58,6 +58,7 @@ store.on("error", (e) => {
 
 const sessionConfig = {
     store,
+    name: 'session',
     secret,
     resave: false,
     saveUninitialized: true,
